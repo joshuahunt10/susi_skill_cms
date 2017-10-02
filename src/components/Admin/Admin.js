@@ -56,10 +56,10 @@ class Admin extends Component {
         });
     }
 
-    handleClose = () => {
-        this.props.history.push('/');
-        window.location.reload();
-    };
+    // handleClose = () => {
+    //     this.props.history.push('/');
+    //     window.location.reload();
+    // };
 
     render() {
 
